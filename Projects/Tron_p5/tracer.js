@@ -21,11 +21,11 @@ function Tracer(name,x,y,movement_keys,color,starting_dir) {
 
 	this.update = function() {
 		if(this.status) {
-			this.update_history();
 			this.pos.add(this.vel);
 			this.edges();
 			this.display();
 			this.check_history();
+			this.update_history();
 		} else {
 			this.display();
 		}

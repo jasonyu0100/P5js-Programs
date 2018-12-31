@@ -2,8 +2,8 @@ let game;
 
 function setup() {
 	frameRate(8);
-	createCanvas(600,600);
-	game = new Game(16,16,width,height);
+	createCanvas(250,500);
+	game = new Game(20,10,width,height);
 }
 
 function draw() {
