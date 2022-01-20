@@ -7,7 +7,7 @@ let maxMovesPerCycle = 3;
 let currentCycle = 0;
 
 function setup() {
-	frameRate(10);
+	frameRate(5);
 	createCanvas(w,h);
 	grid = new Grid(rows,cols);
 }
